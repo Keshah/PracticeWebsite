@@ -56,7 +56,6 @@ background-color: aliceblue;
         
         align-items: center;
     }
-}
 
 @media (max-width: 640px) {
     .menu__link{
@@ -114,7 +113,7 @@ background-color: aliceblue;
     .header__left{
         flex-direction: column;
     }
-    
+   
     .nav{
         margin-top: 91px;
     }
@@ -161,4 +160,4 @@ background-color: aliceblue;
     .productt_box{
         min-width: 398px;
     }
-}
+}}
