@@ -1,0 +1,30 @@
+.label
+  color: #ffffff
+  font-size: 20px
+  cursor: pointer
+
+.switcher
+  position: absolute
+  visibility: hidden
+  left: -999999px
+  &:checked ~ nav
+    background: linear-gradient(243.81deg, #206568 0%, #143a62 100%)
+    right: 0
+    transition: all .3s
+
+    @media (max-width: 767px)
+  nav
+    position: fixed
+    top: 0
+    right: -100%
+    width: 100%
+    height: 100vh
+
+  .close
+    position: absolute
+    top: 2rem
+    right: 2rem
+@media (min-width: 768px)
+  .close,
+  .open
+    display: none
